@@ -9,6 +9,7 @@ function Show({ bread, index }) {
       <h2>Show Page</h2>
       <h3>{bread.name}</h3>
       <img src={bread.image} alt={bread.name} />
+      <p>Baked by {bread.baker}</p>
       <a href={`/breads/${bread.id}/edit`}>
         <button>Edit</button>
       </a>
