@@ -10,7 +10,7 @@ function Show({ bread, index }) {
       <h3>{bread.name}</h3>
       <img src={bread.image} alt={bread.name} />
       <p>
-        {bread.name}
+        {bread.name},
         {bread.hasGluten ? <span> does </span> : <span> does NOT </span>}
         have gluten.
       </p>
