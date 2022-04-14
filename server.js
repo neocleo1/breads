@@ -40,7 +40,7 @@ app.use('/bakers', bakersController)
 
 //LISTEN
 app.listen(PORT, () => {
-  console.log('nomming at port', PORT)
+  console.log('baking at', PORT, 'degrees')
 })
 
 // 404 Page
